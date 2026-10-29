@@ -1,0 +1,15 @@
+worked example N=5 W=2: [7, 9, 4]
+worked example N=4 W=2: [-3, -1]
+worked example N=3 W=8: [7]
+worked example N=4 W=1: [2, -1, 0, 6]
+early data TLAST expected completed-window results: [7]
+missing data TLAST expected completed-window results: [7, 9]
+early header expected activation: ExpectedActivation(response_headers=(), result_bursts=(), halted=1, error='EARLY_HEADER_TLAST', tx_id=0, unread_commands=(45,))
+checker rejected wrong final value: wrong final value: expected [7, 9, 4], got [7, 9, 3]
+checker rejected wrong output length: wrong output length: expected [7, 9, 4], got [7, 9]
+DATA header: ['0x00000000', '0x0000002a', '0x00000005', '0x00000002']
+END header: ['0x00000001', '0x00000000', '0x00000000', '0x00000000']
+response header: ['0x0000002a', '0x00000003']
+signed sample words: ['0x80000000', '0x7fffffff']
+valid scenario activations: 31
+Stage 1 checks passed

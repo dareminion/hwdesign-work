@@ -1,0 +1,19 @@
+{
+  "source_report": "w32_proj/solution1/sim/report/maxpool_cosim.rpt",
+  "latency_cycles": {
+    "min": 10,
+    "average": 69,
+    "max": 330
+  },
+  "interval_cycles": {
+    "min": 24,
+    "average": 82,
+    "max": 344
+  },
+  "total_execution_cycles": 3307,
+  "scenario_count": 40,
+  "sample_words_consumed_from_intents": 343,
+  "result_words_emitted_from_intents": 85,
+  "aggregate_sample_words_per_cycle": 0.10371938312670094,
+  "aggregate_result_words_per_cycle": 0.025703054127608104
+}

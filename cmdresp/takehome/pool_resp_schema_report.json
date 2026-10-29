@@ -1,0 +1,29 @@
+{
+  "schema_name": "PoolRespHdr",
+  "input_path": "/home/dk4461/hwdesign-work/cmdresp/takehome/maxpool.py",
+  "ok": true,
+  "summary": "Schema is valid with 1 warning.",
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Multiple schema classes were found. schema_info describes the first discovered schema class.",
+      "code": "multiple_schema_classes",
+      "location": {
+        "line": 33,
+        "column": null,
+        "path": "/home/dk4461/hwdesign-work/cmdresp/takehome/maxpool.py"
+      }
+    }
+  ],
+  "schema_info": {
+    "name": "PoolCmdHdr",
+    "kind": "DataList",
+    "field_count": 4,
+    "field_names": [
+      "cmd_type",
+      "tx_id",
+      "n",
+      "window"
+    ]
+  }
+}
